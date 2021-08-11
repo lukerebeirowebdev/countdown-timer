@@ -35,7 +35,7 @@ let tempMonth = tempDate.getMonth();
 let tempDay = tempDate.getDate();
 
 // let futureDate = new Date (
-//     2021, 7 , 14, 14, 45, 0
+//     2022, 10 , 26, 14, 45, 0
 // );
 
 const futureDate = new Date(tempYear, tempMonth, tempDay + 10, 11, 30, 0);
@@ -90,7 +90,6 @@ items.forEach(function(item, index) {
         deadline.innerHTML = `<h4 class="expired"> sorry, this giveaway has expired</h4>`;
     }
 }
-
 // countdown
 let countdown = setInterval(getRemainingTime, 1000);
 
