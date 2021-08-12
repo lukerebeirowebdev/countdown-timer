@@ -4,12 +4,16 @@
     justify-content: center;
     background-color: rgb(0, 0, 0);
     color: white;
+    margin: 0;
 }
 
 .Path__3 {
+    padding: 0;
+    margin: 0;
     left: 0;
     width: 1920px;
-    height: 142px;
+    max-width: 100%;
+    max-height: 100%;
     opacity: 1;
 
 }
@@ -20,10 +24,9 @@ h3 {
 }
 
 img {
+    max-width: 100%;
+    height: auto;
     text-align: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
 }
 
 p {
@@ -39,6 +42,8 @@ p {
     text-align: center;
     justify-content: center;
     padding: 30px;
+    max-width: 100%;
+    height: auto;
 }
 
 .days, .hours, .mins, .secs {
@@ -54,8 +59,57 @@ span {
     font-size: 20px;
 }
 
+.get__more {
+    width: 10%;
+    border-style: none;
+    border-radius: 18px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding: 0.5em 0.5em 0.5em;
+    cursor: pointer;
+}
+
 
 .gift-img {
     justify-content: center;
     text-align: center;
 }
+
+@media screen and (max-width: 425px) {
+
+    body {
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    h3 {
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+
+    .giveaway {
+        font-size: 30px;
+    }
+
+    .deadline-format {
+        display: inline-flex;
+        text-align: center;
+        justify-content: center;
+        padding: 30px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .days, .hours, .mins, .secs {
+        font-size: 40px;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    
+  }
