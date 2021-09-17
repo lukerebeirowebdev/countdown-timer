@@ -50,7 +50,7 @@ month = months[month];
 const date = futureDate.getDate();
 const weekday = weekdays [futureDate.getDay()];
 
-giveaway.textContent = `Giveaway Starts On ${weekday}, ${date} ${month} ${year} ${hours}:${minutes}am `;
+giveaway.textContent = `Giveaway Starts On Friday, ${date} ${month} ${year} ${hours}:${minutes}am `;
 
 // future time in ms
 const futureTime = futureDate.getTime();
