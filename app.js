@@ -37,7 +37,7 @@ const items = document.querySelectorAll('.deadline-format h4');
 // const futureDate = new Date(tempYear, tempMonth, tempDay + 10, 11, 30, 0);
 
 let futureDate = new Date (
-    2021, 10 , 26, 12, 30,
+    2021, 11 , 26, 12, 30,
 );
 
 const year = futureDate.getFullYear();
