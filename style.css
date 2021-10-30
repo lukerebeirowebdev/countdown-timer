@@ -68,6 +68,35 @@ span {
     text-align: center;
 }
 
+.button__small {
+    padding: 5px 20px 5px 20px;
+    max-width: 100%;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+#footer-container {
+    padding-bottom: 2.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+a:hover {
+    color: tomato;
+}
+
 @media screen and (max-width: 425px) {
 
     body {
