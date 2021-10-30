@@ -38,7 +38,7 @@ const items = document.querySelectorAll('.deadline-format h4');
 
 // countdown timer
 let futureDate = new Date (
-    2021, 11 , 26, 12, 30,
+    2021, 10 , 26, 12, 30,
 );
 
 const year = futureDate.getFullYear();
