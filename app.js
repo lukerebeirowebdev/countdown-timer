@@ -51,7 +51,7 @@ month = months[month];
 const date = futureDate.getDate();
 const weekday = weekdays [futureDate.getDay()];
 
-giveaway.textContent = `Giveaway Starts On Friday, ${date} ${month} ${year} ${hours}:${minutes}am `;
+giveaway.textContent = `Giveaway Starts Next Year!, ${date} ${month} ${year} ${hours}:${minutes}am `;
 
 // future time in ms
 const futureTime = futureDate.getTime();
@@ -89,7 +89,7 @@ items.forEach(function(item, index) {
     });
     if (t < 0) {
         clearInterval(countdown);
-        deadline.innerHTML = `<h4 class="expired"> sorry, this giveaway has expired</h4>`;
+        deadline.innerHTML = `<h4 class="expired"> SORRY THIS GIVEAWAY HAS ENDED!</h4>`;
     }
 }
 // countdown
